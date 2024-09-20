@@ -30,7 +30,8 @@ public class App {
        int resultado = dataStructuresPrep.subtractAlgorithm(15, 5);
         int multiplicacion= dataStructuresPrep.multiplyAlgorithm(5, 3);
         int division= dataStructuresPrep.divideWAlgorithm(10,2);
-        int perfecto=dataStructuresPrep.isPerfectNumber(6);
+        boolean numperfecto=dataStructuresPrep.isPerfectNumber(28);
+        //int maximum=dataStructuresPrep.findMaximum(10);
         /*
          * Imprimir el resultado de la operación.
          * 
@@ -48,6 +49,7 @@ public class App {
         System.out.println("El resultado de subtractAlgorithm  es: " + resultado);
         System.out.println("El resultado de multiplicacion es: " + multiplicacion);
         System.out.println("El resultado de division es: " + division);
-        System.out.println("El numero perfect es: " + perfecto);
+        System.out.println("El numero si es perfecto: " +numperfecto); 
+        //System.out.println("El numero maximo es " +maximum);
     }
 }

@@ -79,7 +79,7 @@ public class DataStructuresPrep {
      *         Ejemplo: isPerfectNumber(28) retorna true.
      */
     public boolean isPerfectNumber(int number) {
-        int suma=1;
+        int suma=0;
         for (int i = 1; i < number; i++) {
             if (number % i == 0){
                 suma= suma+i;
@@ -105,10 +105,19 @@ public class DataStructuresPrep {
      * 
      * @param numbers El arreglo de enteros.
      * @return El valor máximo en el arreglo.
-     *         Ejemplo: findMaximum(new int[]{1, 5, 3, 6, 8, 2}) retorna 8.
+     *         Ejemplo: findMaximum(new aint[]{1, 5, 3, 6, 8, 2}) retorna 8.
      */
     public int findMaximum(int[] numbers) {
-        throw new UnsupportedOperationException("Not yet implemented");
+        int[] numeros;
+        int max = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+            if (numbers[i] > max) {
+                max = numbers[i];
+                }
+                }
+                return max;
+
+
     }
 
     /**
